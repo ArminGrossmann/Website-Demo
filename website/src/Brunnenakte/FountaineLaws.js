@@ -5,36 +5,36 @@ export default function FountaineLaws(props) {
 
     return (
         <div className="rounded border-8 border-slate-800  bg-slate-800"> 
-            <p className="text-2xl text-gray-300 text-left mt-4">Ergänzende Angaben zum Wasserrecht:</p>
-            <table className="bg-slate-800 mt-2">
+            <p className="text-2xl text-gray-300 text-left mt-4 m-4">Ergänzende Angaben zum Wasserrecht:</p>
+            <table className="bg-slate-800 mt-2 m-4">
                 <tbody>
                     <tr>
                         <td className="text-gray-300 w-1/3 text-left">Aktenzeichen:</td>
-                        <td className="text-gray-300">
+                        <td className="text-gray-300 text-justify">
                             <div>123</div>
                         </td>
                     </tr>
                     <tr>
                         <td className="text-gray-300 w-1/3 text-left">Erlaubte Fördermenge:</td>
-                        <td className="text-gray-300">
+                        <td className="text-gray-300 text-justify">
                             <div>1Liter</div>
                         </td>
                     </tr>
                     <tr>
                         <td className="text-gray-300 w-1/3 text-left">Erlaubtes Delta-T:</td>
-                        <td className="text-gray-300">
+                        <td className="text-gray-300 text-justify">
                             <div>75</div>
                         </td>
                     </tr>
                     <tr>
                         <td className="text-gray-300 w-1/3 text-left">Erlaubte min. Temp:</td>
-                        <td className="text-gray-300">
+                        <td className="text-gray-300 text-justify">
                             <div>-200</div>
                         </td>
                     </tr>
                     <tr>
-                        <td className="text-gray-300 w-1/3 text-left">Erlaubte max. Temp:</td>
-                        <td className="text-gray-300">
+                        <td className="text-gray-300 w-1/2 text-left">Erlaubte max. Temp:</td>
+                        <td className="text-gray-300 text-justify">
                             <div>-220</div>
                         </td>
                     </tr>
