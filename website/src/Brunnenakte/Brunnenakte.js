@@ -17,6 +17,7 @@ export default function Brunnenakte() {
         <p className="text-4xl text-left text-gray-500 pl-8 pt-8">
           {" "}
           Brunnenakte{" "}
+          
         </p>
         <div className="pl-8 pt-8 w-full flex">
           <div className="w-1/5">
