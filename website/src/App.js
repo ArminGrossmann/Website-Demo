@@ -4,6 +4,7 @@ import { Routes, Route, Switch, Link } from "react-router-dom";
 import UserProfile from './UserProfile/UserProfile';
 import Rout from './Rout';
 import InfoRout from './InfomationBlatt/InfoRout';
+import React from 'react';
 
 
 function App() {

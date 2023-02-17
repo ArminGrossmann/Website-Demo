@@ -4,7 +4,7 @@ import FountaineCustomer from "./FountaineCustomer";
 import FountaineProject from "./FountaineProject";
 import UploadFiles from "./UploadFiles";
 import FountaineLaws from "./FountaineLaws";
-import Map from "../Maps/Map"
+import Map from "../Maps/Small_Map"
 
 import Waermepumpenkreislauf from "../Bilder/heat_pump_circuit.jpg";
 
@@ -61,18 +61,18 @@ export default function Brunnenakte() {
 
             <div className="w-1/2">
               <div className=" flex items-center justify-center">
-                <div className="m-6">
-                  <div className="">
+                <div className="">
+                  <div className="flex items-center justify-center m-6 bg-slate-800 rounded ">
                     <img
                       src={Waermepumpenkreislauf}
                       alt="Waermepumpenkreislauf"
                       width="80%"
                       height="80%"
-                      className="flex items-left justify-left m-6 bg-slate-800 rounded"
+                      className=" items-center justify-center m-6 bg-slate-800 rounded"
                     />
                   </div>
 
-                  <div className="mt-6 " >
+                  <div className="flex items-left justify-left m-6 bg-slate-800 rounded   " >
                     <UploadFiles />
                   </div>
                   <div className="  px-8 py-8 flex items-left justify-left m-6 bg-slate-800 rounded">
@@ -80,7 +80,7 @@ export default function Brunnenakte() {
                   </div>
                 </div>
               </div>
-              <div className="h-1/2 flex items-center justify-center pr-8"></div>
+              
             </div>
           </div>
         </div>
